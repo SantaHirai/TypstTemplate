@@ -1,0 +1,55 @@
+Socket:
+    type: Web
+    title: ソケットの仕組み
+    author: IBM
+    url:
+      value: https://www.ibm.com/docs/ja/i/7.1?topic=programming-how-sockets-work
+      date: 2023-12-15
+    
+Stream:
+    type: Web
+    title: ストリーム
+    author: 株式会社マイナビ
+    url:
+      value: https://java-code.jp/250
+      date: 2023-12-16
+
+Port:
+    type: Web
+    title: ポート番号
+    author: 株式会社インセプト
+    url:
+      value: https://e-words.jp/w/%E3%83%9D%E3%83%BC%E3%83%88%E7%95%AA%E5%8F%B7.html
+      date: 2023-12-16
+
+InputStream:
+    type: Web
+    title: クラスInputStream
+    author: Oracle
+    url:
+      value: https://docs.oracle.com/javase/jp/8/docs/api/java/io/InputStream.html
+      date: 2023-12-16
+
+InputStreamReader:
+    type: Web
+    title: クラスInputStreamReader
+    author: Oracle
+    url:
+      value: https://docs.oracle.com/javase/jp/1.5.0/api/java/io/InputStreamReader.html
+      date: 2023-12-16
+
+BufferedReadr:
+    type: Web
+    title: クラスBufferedReade
+    author: Oracle
+    url:
+      value: https://docs.oracle.com/javase/jp/8/docs/api/java/io/BufferedReader.html
+      date: 2023-12-16
+
+TCPIP:
+    type: Book
+    title: マスタリングTCP/IP 入門編 第6版
+    publisher: オーム社
+    author: 井上直也・村山公保・竹下隆史・荒井透・苅田幸雄
+    date: 2022-11-30
+      
