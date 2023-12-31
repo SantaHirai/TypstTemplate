@@ -48,12 +48,15 @@
 // #figure(
 //     image("",width: 80%
 //     caption: [キャプション])
-// )
+// ) <Sample>
+
+//@Sample に画像の例を示す。
 
 // ```lang
 // code
 // ```
 
+//$attach(A,t: "t", b: "b", tl: "tl", tr: "tr", bl: "bl", br: "br")$
 // + ナンバリング
 // - ドット
 
