@@ -1,5 +1,6 @@
 #set text(font: "MS Gothic")
 #set figure(supplement:[図])
+#set heading(supplement: [])
 #set image(width:80%)
 #set heading(numbering: "1.")
 #set raw(block: true,lang: "Java")
@@ -8,7 +9,13 @@
     #strong(it)
 ]
 
-#set par(justify: true,leading: 0.75em)
+#set par(justify: false,leading: 0.75em)
+#set par(first-line-indent: 1em)
+#show heading: it => {
+    it
+    par(text(size: 0pt, ""))
+}
+
 #show raw: it=>[
     #box(
         stroke:1pt+black,
@@ -24,11 +31,14 @@
     #text(it,fill:blue)
 ]
 
-// = 章
+#set document(title: [title], author: "name", date: none)
 
-// == 節@Socket
 
-// #h(10pt)本文
+
+// = 実験の課題・目的 <purpose>
+
+// = 実験の原理 
+// == Socketの原理 @Socket
 
 // #pagebreak()
 
@@ -50,13 +60,12 @@
 //     caption: [キャプション])
 // ) <Sample>
 
-//@Sample に画像の例を示す。
+// @Sample に画像の例を示す。
 
 // ```lang
 // code
 // ```
 
-//$attach(A,t: "t", b: "b", tl: "tl", tr: "tr", bl: "bl", br: "br")$
 // + ナンバリング
 // - ドット
 
@@ -65,5 +74,4 @@
 //   &= a_c$
 
 // = 参考資料
-// #set par(justify: false,leading: 0.75em)
-// #bibliography("参考文献.yml",title:none,style: "sist02")
+// #bibliography("参考文献_例.yml",title:none,style: "sist02")
