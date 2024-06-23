@@ -1,4 +1,4 @@
-#set text(font: "MS Gothic")
+#set text(font: "MS Mincho")
 #set figure(supplement:[図])
 #set heading(supplement: [])
 #set image(width:80%)
@@ -33,7 +33,12 @@
 
 #set document(title: [title], author: "name", date: none)
 
+// #show: rest => columns(2, rest)
 
+// #set document(title: "Title", author: "Name", date: none)
+
+// #align(center,text("Title",20pt,font:"MS Gothic"))
+// #align(right,text("Name",font:"MS Gothic"))
 
 // = 実験の課題・目的 <purpose>
 
@@ -56,8 +61,8 @@
 // )
 
 // #figure(
-//     image("",width: 80%
-//     caption: [キャプション])
+//     image("sample.png",width: 80%),
+// caption: [キャプション]
 // ) <Sample>
 
 // @Sample に画像の例を示す。
