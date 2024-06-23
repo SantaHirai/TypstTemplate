@@ -35,6 +35,8 @@
 
 // #show: rest => columns(2, rest)
 
+// #colbreak()
+
 // #set document(title: "Title", author: "Name", date: none)
 
 // #align(center,text("Title",20pt,font:"MS Gothic"))
